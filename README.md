@@ -140,8 +140,3 @@ POST /api/v1/jwt/verify/
   "token": "string"
 }
 ```
-
-
-
-
-
