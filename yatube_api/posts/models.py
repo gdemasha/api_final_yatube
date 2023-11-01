@@ -46,7 +46,9 @@ class Post(models.Model):
         related_name='posts',
     )
     image = models.ImageField(
-        upload_to='posts/', null=True, blank=True
+        upload_to='posts/',
+        null=True,
+        blank=True,
     )
     group = models.ForeignKey(
         Group,
